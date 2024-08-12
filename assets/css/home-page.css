@@ -1,0 +1,128 @@
+.slider-area .carousel-item img {
+  height: 650px;
+}
+
+.section-title {
+  position: relative;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #000;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* hero css start here  */
+
+.hero-area {
+  padding: 100px 0;
+}
+
+.hero-img img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 505px;
+}
+
+/* hero css end here  */
+
+/* about css start here  */
+
+.about-area {
+  padding: 100px 0;
+  background: #006b8f;
+}
+
+.about-area.img-bg {
+  background-image: url("../img/bg/about.png");
+}
+
+.about-wrap {
+  margin-bottom: 24px;
+}
+
+.about-wrap .section-title::after {
+  background: #fff;
+}
+
+.about-wrap h2 {
+  color: #fff;
+}
+
+.about-wrap p {
+  color: #fff;
+}
+
+/* about css end here  */
+
+/* financial css start  */
+.financial-area {
+  padding: 100px 0;
+}
+
+.financial-wrap {
+  margin-bottom: 24px;
+}
+
+/* financial css end */
+
+/* contact css start  */
+
+.contact-area {
+  padding: 100px 0;
+  background: #c9bca9;
+}
+
+.contact-wrap {
+  margin-bottom: 24px;
+}
+
+.contact-wrap ul {
+  list-style: none;
+}
+
+.contact-wrap ul li {
+  margin-bottom: 24px;
+}
+
+.contact-wrap h4 {
+  font-weight: 500;
+}
+
+/* contact css end */
+
+/* cto css start  */
+
+.cto-area {
+  padding: 120px 0;
+  position: relative;
+}
+
+.cto-area:after {
+  position: absolute;
+  content: "";
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 230px;
+  width: 3px;
+  background: #000;
+}
+
+.cto-title {
+  padding: 50px;
+  margin-bottom: 40px;
+}
+
+.cto-title h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #0c293f;
+}
+/* cto css end */

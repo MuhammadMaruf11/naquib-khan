@@ -1,0 +1,254 @@
+/* Header Area */
+.header-area {
+  background-color: #fff;
+  border-bottom: 1px solid #dedede;
+  padding: 10px 0;
+  transition: all 0.3s linear;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 90;
+}
+
+.header-area.sticky-header {
+  padding: 10px 0;
+}
+
+.header-left {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  display: inline-block;
+  width: 260px;
+}
+
+/* Main Menu */
+.main-menu {
+  position: relative;
+}
+
+#mobile-menu ul {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+}
+
+#mobile-menu ul li {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#mobile-menu ul li:after {
+  background: #000;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: 0.5s;
+  width: 0;
+}
+
+#mobile-menu ul li:hover:after {
+  width: 100%;
+}
+
+#mobile-menu > ul > li > a {
+  color: #010101;
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#mobile-menu > ul > li:first-child > a {
+  padding: 0;
+  color: #333;
+  width: 40px;
+  display: block;
+}
+
+#mobile-menu ul ul {
+  align-items: baseline;
+  background: #fff;
+  display: block;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  position: absolute;
+  top: 100%;
+  transform: rotateX(90deg);
+  transform-origin: top center;
+  transition: 0.5s;
+  width: 260px;
+  box-shadow: 1px 1px 5px #00000020;
+}
+
+#mobile-menu ul ul ul {
+  left: 260px;
+  position: absolute;
+  top: 0;
+  width: 250px !important;
+}
+
+#mobile-menu li:hover > ul {
+  transform: rotateY(0deg);
+  transform-origin: top center;
+}
+
+#mobile-menu ul ul li {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+#mobile-menu ul ul li > a {
+  color: #010101;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Menu Open Icon */
+/* .menu-open .side-icon a {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu-open .side-icon a:hover {
+  color: #007bff;
+} */
+
+.toggle-icon {
+  font-size: 28px;
+}
+.toggle-icon a {
+  color: #000;
+}
+
+.toggle-icon {
+  position: absolute;
+  /* left: 14px; */
+  right: 24px;
+  top: 40px;
+  z-index: 999;
+  font-size: 20px;
+}
+
+.toggle-icon::before,
+.toggle-icon::after {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 3px;
+  border-radius: 30px;
+  background: #000;
+  right: 0;
+  transition: all 0.3s linear;
+}
+
+.toggle-icon::before {
+  top: 15%;
+}
+
+.toggle-icon::after {
+  bottom: 15%;
+}
+
+.toggle-icon.open::before {
+  transform: rotate(45deg);
+  top: 47.5%;
+  height: 2px;
+}
+
+.toggle-icon.open::after {
+  transform: rotate(-45deg);
+  bottom: 47.5%;
+  height: 2px;
+}
+
+.toggle-icon.open i {
+  visibility: hidden;
+}
+
+.toggle-icon {
+  display: block;
+  margin-left: auto;
+  text-align: end;
+  line-height: 1;
+  width: 18px;
+}
+
+/* Mobile Menu Display */
+
+.close-icon {
+  z-index: 999999999;
+  background: #0c1923;
+  padding: 16px 5%;
+}
+
+.close-icon a {
+  color: #fff;
+}
+
+.side-bar-menu {
+  z-index: 8888;
+  position: fixed;
+  top: 111px;
+  left: 100%;
+  background: #0c1923;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  overflow-y: auto;
+  transition: all 0.3s;
+}
+
+.side-bar-menu.active {
+  left: 0;
+}
+
+.mean-container .mean-nav {
+  margin-top: 0px;
+}
+
+.mean-container a.meanmenu-reveal {
+  display: none !important;
+}
+
+.mean-container > .mean-bar > .mean-nav > ul {
+  display: block !important;
+}
+
+.mean-nav ul li i {
+  display: none;
+}
+
+.mean-nav .header-logo img {
+  width: 40px;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+  font-size: 30px !important;
+  font-weight: 100;
+  line-height: 32px;
+}
