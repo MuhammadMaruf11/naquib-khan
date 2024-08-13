@@ -12,7 +12,7 @@
   width: 50px;
   height: 2px;
   background: #000;
-  top: 110%;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
 }

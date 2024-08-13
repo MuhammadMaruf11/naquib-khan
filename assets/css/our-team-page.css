@@ -1,0 +1,45 @@
+/* Card Styles */
+
+.our-team-area .card {
+  box-shadow: none;
+  border: 0;
+}
+
+.our-team-area .row.no-gutters {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.our-team-area .card img {
+  border-radius: 50%;
+  width: 185px;
+  object-fit: cover;
+  margin-bottom: 24px;
+  height: 185px;
+}
+
+.our-team-area .card .card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.our-team-area .card .card-body {
+  padding: 20px;
+}
+
+.our-team-area .card p,
+.our-team-area .card ul {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.our-team-area .card ul {
+  padding-left: 20px;
+}
+
+.our-team-area .card ul li {
+  margin-bottom: 10px;
+}
