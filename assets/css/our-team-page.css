@@ -1,5 +1,9 @@
 /* Card Styles */
 
+.our-team-area {
+  padding: 100px 0;
+}
+
 .our-team-area .card {
   box-shadow: none;
   border: 0;

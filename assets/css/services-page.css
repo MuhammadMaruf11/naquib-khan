@@ -1,0 +1,84 @@
+.service-area {
+  padding: 50px 0;
+}
+
+.service-category {
+  margin-bottom: 40px;
+}
+
+.service-category h2 {
+  font-size: 32px;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-underline-offset: 10px;
+}
+
+.service-category h3 {
+  color: #007bff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.service-subcategory h4,
+.service-details h4,
+.service-details h5 {
+  font-size: 1.4rem;
+  color: #343a40;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.service-subcategory p,
+.service-details p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.service-subcategory ul,
+.service-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.service-subcategory ul li,
+.service-details ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.service-details {
+  margin-left: 20px;
+}
+
+.service-details ul li {
+  font-size: 1rem;
+  color: #333;
+}
+
+.service-area .card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.service-area .card-header {
+  background: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.service-area .card-body {
+  padding: 1.5rem;
+}
+
+.service-area .card-title {
+  font-size: 1.25rem;
+}
+
+.service-area ul {
+  list-style: none;
+}
+
+.service-area ul li {
+  margin-bottom: 8px;
+}

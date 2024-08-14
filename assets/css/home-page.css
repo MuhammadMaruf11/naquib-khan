@@ -4,12 +4,13 @@
 
 .section-title {
   position: relative;
+  display: inline-block;
 }
 
 .section-title::after {
   position: absolute;
   content: "";
-  width: 50px;
+  width: 50%;
   height: 2px;
   background: #000;
   top: 100%;

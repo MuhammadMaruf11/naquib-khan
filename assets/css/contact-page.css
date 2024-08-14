@@ -1,26 +1,37 @@
 /* contact form css start  */
 
-.contact-form-area {
-  margin: 100px 0;
+.contact-area.contact-page {
+  background-color: #f8f9fa;
+  padding: 100px 0;
 }
 
-.contact-form-section-title h1 {
-  font-size: 52px;
-}
-/* contact form css end */
-
-/* contact address css start  */
-
-.contact-address-area {
-  margin: 100px 0;
+.contact-info {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
 }
 
-.contact-address-widget {
-  margin-bottom: 24px;
+.contact-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.contact-info a {
+  color: #111;
 }
 
-.contact-address-widget h2 {
-  font-size: 24px;
+.contact-details {
+  margin-top: 20px;
 }
-
+.contact-details li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.contact-details li a {
+  font-weight: 600;
+  color: #565656;
+}
+.contact-details li a:hover {
+  color: #000;
+}
 /* contact address css end */
